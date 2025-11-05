@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Borigilla Naga Geethika | Cybersecurity Student</title>
+
+  <style>
+    /* === Global Styles === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #eaeaea;
+      scroll-behavior: smooth;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+    }
+
+    /* === Navbar === */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid #00ffc6;
+    }
+
+    nav h1 {
+      font-size: 1.4rem;
+      color: #00ffc6;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: #eaeaea;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffc6;
+    }
+
+    /* === Hero Section === */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #121212, #050505);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+    }
+
+    .hero span {
+      color: #00ffc6;
+    }
+
+    .hero p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .hero .btn {
+      margin-top: 2rem;
+      background: #00ffc6;
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .hero .btn:hover {
+      background: #00bfa5;
+      transform: scale(1.05);
+    }
+
+    /* === Sections === */
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #00ffc6;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+
+    /* === About === */
+    #about p {
+      text-align: center;
+      line-height: 1.7;
+      font-size: 1.1rem;
+      color: #d0d0d0;
+    }
+
+    /* === Projects === */
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .project-card {
+      background: #111;
+      border: 1px solid #00ffc6;
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 255, 198, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card h3 {
+      color: #00ffc6;
+      margin-bottom: 1rem;
+    }
+
+    .project-card p {
+      color: #ccc;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .project-card a {
+      color: #00ffc6;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .project-card a:hover {
+      color: #fff;
+    }
+
+    /* === Contact === */
+    #contact ul {
+      list-style: none;
+      text-align: center;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+
+    #contact a {
+      color: #00ffc6;
+      transition: color 0.3s;
+    }
+
+    #contact a:hover {
+      color: #fff;
+    }
+
+    /* === Footer === */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1.5rem;
+      color: #999;
+      border-top: 1px solid #00ffc6;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* === Responsive === */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+
+      nav {
+        justify-content: center;
+      }
+
+      .hero h2 {
+        font-size: 1.6rem;
+      }
+
+      .project-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- === Navbar === -->
+  <nav>
+    <h1>Borigilla Naga Geethika</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- === Hero Section === -->
+  <section id="home" class="hero">
+    <h2>Hello, I'm <span>Borigilla Naga Geethika</span></h2>
+    <p>Cybersecurity Student | Passionate about Ethical Hacking & Digital Safety</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </section>
+
+  <!-- === About Section === -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a <strong>Cybersecurity student</strong> who loves exploring ethical hacking, digital forensics, and
+      network defense. My mission is to strengthen digital security and raise awareness about online safety.
+      <br><br>
+      I’m continuously learning about penetration testing, malware analysis, and secure coding practices.
+    </p>
+  </section>
+
+  <!-- === Projects Section === -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Network Vulnerability Scanner</h3>
+        <p>Detects open ports and potential vulnerabilities in local systems using Python and Nmap.</p>
+        <a href="#">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Password Strength Checker</h3>
+        <p>Analyzes password strength using regex and entropy calculations to improve security awareness.</p>
+        <a href="#">GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Phishing Awareness Page</h3>
+        <p>An educational demo website showing how phishing scams work and how to stay safe.</p>
+        <a href="#">GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- === Contact Section === -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:nagageethikaborigorla@gmail.com">nagageethikaborigorla@gmail.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="#">Your LinkedIn Profile</a></li>
+      <li><strong>GitHub:</strong> <a href="#">Your GitHub Profile</a></li>
+    </ul>
+  </section>
+
+  <!-- === Footer === -->
+  <footer>
+    <p>© 2025 Borigilla Naga Geethika. All Rights Reserved.</p>
+  </footer>
+
+  <!-- === JavaScript === -->
+  <script>
+    // Smooth scrolling effect for navigation links
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
